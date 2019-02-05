@@ -1,0 +1,18 @@
+body{
+ font-family: 'ZCOOL KuaiLe', cursive;
+ background-color:#e2acde;
+}
+#parent{
+ display:flex;
+ align-items: center;
+  flex-direction: column;
+} 
+input{
+    border: 7px solid #838ad1;
+    padding:10px;
+}
+button{
+    width: 200px;
+    margin-top:20px;
+   
+}
