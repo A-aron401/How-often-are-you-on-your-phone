@@ -25,12 +25,12 @@ button{
        <div id="parent">
         <h1>How Much Will you use Your Phone by 2050...</h1>
         <input class="names" placeholder="whats your name?">
-        <h3>How many hours a day do you pull out your phone?</h3>
+        <h3>How many hours a day do you use your phone?</h3>
         <input class="hour">
         <h3>What kind of phone do you have?</h3>
         <input class="phone">
         <button> Thinking</button>
-        <p>...you will use your...for...hours by 2050</p>
+        <h2>...you will use your...for...hours by 2050</h2>
         </div>
         
     
@@ -44,7 +44,7 @@ $("button").click(function() {
      var answer=(hours*11315);
      var result= (name+" you will use your "+phones+" for "+answer+" hours by 2050");
      
-      $("p").text(result);
+      $("h2").text(result);
 });
 
 
