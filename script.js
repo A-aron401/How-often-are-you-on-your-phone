@@ -5,7 +5,7 @@ $("button").click(function() {
      var answer=(hours*11315);
      var result= (name+" you will use your "+phones+" for "+answer+" hours by 2050");
      
-      $("p").text(result);
+      $("h2").text(result);
 });
 
 
